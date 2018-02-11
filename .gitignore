@@ -1,0 +1,4 @@
+node_modules/
+deploy-*/*.tar.gz
+deploy-*/bundle
+.DS_Store
