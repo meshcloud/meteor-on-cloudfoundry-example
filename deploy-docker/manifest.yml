@@ -1,0 +1,9 @@
+---
+applications:
+- name: try-meteor-app-docker
+  memory: 512M
+  instances: 1
+  docker:
+    image: meshcloud/meteor-cf-example
+  services:
+    - meteor-mongo
